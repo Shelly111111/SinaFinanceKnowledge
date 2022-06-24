@@ -1,0 +1,7 @@
+煤炭行业有多少上市公司	select ( COUNT ( distinct ?result ) AS ?count ) where { ?n1 sct:hasChineseLabel "煤炭行业" . ?n1 rdfs: ?result . }
+乐凯胶片的股票id是多少	select ?result where { ?n1 sct:hasChineseLabel "乐凯胶片" . ?n1 sct:ID ?result . }
+太原重工属于哪个行业	select ?result where { ?n1 sct:hasChineseLabel ?result . ?n1 rdfs: ?n2 . ?n2 sct:hasChineseLabel "太原重工" . }
+上市公司最多的行业是什么	select ?result where { { select ?n1 ( count ( ?n2 ) as ?subresult ) where { zg:SinaFinance rdfs: ?n1 . ?n1 rdfs: ?n2 . } group by ?n1 } ?n1 sct:hasChineseLabel ?result . } order by desc ( ?subresult ) limit 1
+上市公司最少的5个行业是什么	select ?result where { { select ?n1 ( count ( ?n2 ) as ?subresult ) where { zg:SinaFinance rdfs: ?n1 . ?n1 rdfs: ?n2 . } group by ?n1 } ?n1 sct:hasChineseLabel ?result . } order by ?subresult limit 5
+上市公司最多的前3个行业的公司数目各是多少	select ?result where { select ( count ( ?n2 ) as ?result ) where { zg:SinaFinance rdfs: ?n1 . ?n1 rdfs: ?n2 . } group by ?n1 } order by desc ( ?result ) limit 3
+澳柯玛	select ?p ?result where { ?n1 sct:hasChineseLabel "澳柯玛" . ?n1 ?p ?result . }
