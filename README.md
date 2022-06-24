@@ -103,13 +103,13 @@ with open('Stock.shtml.nt','w',encoding='utf-8') as fp:
 ![](https://ai-studio-static-online.cdn.bcebos.com/b4aa673ab4ae46a5838c344a1cbc989a7ffcde723dbb46729192785724d0d08f)
 
 
-## 用户服务器
+### 用户服务器
 
 后台使用`springboot`撰写与知识图谱的对接接口，代码详见`SinaFinanceKnowledge\zg-java`
 
 ![](https://ai-studio-static-online.cdn.bcebos.com/8a60665fda7e44099aceda50d13a0a3c9c369ce2e5944f80af9134acdd6031d4)
 
-## 语义解析服务器
+### 语义解析服务器
 
 由于语义解析部分使用`python`+`paddlepaddle`构建，所以语义解析服务器使用`django`搭建的，代码详见`SinaFinanceKnowledge\text2sparql`
 
