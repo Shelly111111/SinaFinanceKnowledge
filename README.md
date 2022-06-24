@@ -138,3 +138,10 @@ sparql = " ".join(word_list_s).replace('sct:haschineselabel','sct:hasChineseLabe
 1. 部分词语如：煤炭行业、“煤炭行业”，其实是一样的，但仍然在token映射时，映射为不同的词向量，后续可以改进。
 
 后期可以扩大数据集，调整模型结构，或者使用信息抽取以及归类、匹配的方式构造sparql。
+
+
+## 项目开源：
+
+[GitHub](https://github.com/Shelly111111/SinaFinanceKnowledge)
+
+[AI Studio](https://aistudio.baidu.com/aistudio/projectdetail/4247914)
