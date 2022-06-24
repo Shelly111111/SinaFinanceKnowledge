@@ -140,7 +140,7 @@ sparql = " ".join(word_list_s).replace('sct:haschineselabel','sct:hasChineseLabe
 后期可以扩大数据集，调整模型结构，或者使用信息抽取以及归类、匹配的方式构造sparql。
 
 
-## 项目开源：
+## 项目开源
 
 [GitHub](https://github.com/Shelly111111/SinaFinanceKnowledge)
 
