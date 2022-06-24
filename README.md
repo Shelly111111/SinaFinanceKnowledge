@@ -142,6 +142,6 @@ sparql = " ".join(word_list_s).replace('sct:haschineselabel','sct:hasChineseLabe
 
 ## 项目开源
 
-[GitHub](https://github.com/Shelly111111/SinaFinanceKnowledge)
+GitHub传送门：[https://github.com/Shelly111111/SinaFinanceKnowledge](https://github.com/Shelly111111/SinaFinanceKnowledge)
 
-[AI Studio](https://aistudio.baidu.com/aistudio/projectdetail/4247914)
+AI Studio传送门：[https://aistudio.baidu.com/aistudio/projectdetail/4247914](https://aistudio.baidu.com/aistudio/projectdetail/4247914)
